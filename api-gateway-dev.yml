@@ -4,7 +4,7 @@ zuul:
   routes:
   # /myProduct/product/list -> /product/product/list
     aaaaaa:
-      path: /oneProduct/**
+      path: /myProduct/**
       serviceId: product
       sensitiveHeaders:  #显示敏感头信息（cookie，配置空即可）
   #简洁写法
