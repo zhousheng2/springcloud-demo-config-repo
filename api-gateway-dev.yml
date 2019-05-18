@@ -12,9 +12,14 @@ zuul:
   #排除某些路由
   ignored-patterns:
     - /**/product/listForOrder 
+#暴露配置，
+#通过：http://localhost:9000/actuator/routes可以查看所有匹配的路由
+#低版本：http://localhost:9000/applicatio/routes查看
 management:
-  security:
-    enabled: false    
+  endpoints:
+    web:
+      exposure:
+        include: "*"  
 ribbon:
   ReadTimeout: 5000
   SocketTimeout: 5000
