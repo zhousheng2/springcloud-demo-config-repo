@@ -6,7 +6,7 @@ zuul:
     aaaaaa:
       path: /myProduct/**
       serviceId: product
-      sensitiveHeaders:
+      sensitiveHeaders:  #显示敏感头信息（cookie，配置空即可）
   #简洁写法
 #    product: /myProduct/**
   #排除某些路由
