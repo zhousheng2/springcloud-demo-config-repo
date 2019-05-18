@@ -10,7 +10,7 @@ feign:
 #     service-url:
 #       defaultZone: http://localhost:8762/eureka/
 env:
-  test5
+  test6
 girl:
-  name: 啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+  name: wwwwwwwwwwwww
   age: 18
