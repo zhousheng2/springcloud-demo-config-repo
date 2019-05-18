@@ -1,10 +1,8 @@
 spring:
-  application:
-    name: order
   jpa:
     show-sql: true
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     name: root
     password: zhousheng
     url: jdbc:mysql://192.168.56.100/springCloud_sell?characterEncoding=utf-8&useSSL=false
