@@ -10,7 +10,7 @@ feign:
 env:
   test8
 girl:
-  name: wwww
+  name: w222w
   age: 19
 spring:
   zipkin:
