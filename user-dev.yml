@@ -4,9 +4,21 @@ spring:
     username: root
     password: zhousheng
     url: jdbc:mysql://192.168.200.234:3306/springCloud_sell?characterEncoding=utf-8&useSSL=false
+  rabbitmq:
+    host: 192.168.200.234
+    port: 5672
+    username: guest
+    password: guest
   redis:
     host: 192.168.200.234
     port: 6379
   jpa:
     show-sql: true
     open-in-view: false
+  zipkin:
+    base-url: http://192.168.200.234:9411/
+    sender:
+      type: web
+  sleuth:
+    sampler:
+      probability: 1
