@@ -24,4 +24,10 @@ logging:
   level:
     org.springframework.cloud.openfeign: debug
     org.springframework.cloud.bus: debug
-
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
