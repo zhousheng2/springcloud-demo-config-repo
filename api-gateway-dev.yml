@@ -40,7 +40,8 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"  
+        include: "*"
+#网关超时配置
 ribbon:
   ReadTimeout: 5000
   SocketTimeout: 5000
