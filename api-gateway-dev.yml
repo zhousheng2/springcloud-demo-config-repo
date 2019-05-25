@@ -17,7 +17,7 @@ zuul:
   routes:
   # /myProduct/product/list -> /product/product/list
     product:
-      path: /myProduct2/**
+      path: /product/**
       serviceId: product
       sensitiveHeaders:  #显示敏感头信息（cookie，配置空即可）
     order:
