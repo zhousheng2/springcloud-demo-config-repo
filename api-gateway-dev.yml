@@ -17,11 +17,11 @@ zuul:
   routes:
   # /myProduct/product/list -> /product/product/list
     product:
-      path: /myProduct/**
+      path: /myProduct2/**
       serviceId: product
       sensitiveHeaders:  #显示敏感头信息（cookie，配置空即可）
     order:
-      path: /order2/**
+      path: /order/**
       serviceId: order
       sensitiveHeaders:  #显示敏感头信息（cookie，配置空即可）
     user:
