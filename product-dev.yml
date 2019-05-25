@@ -22,3 +22,11 @@ spring:
     sampler:
       probability: 1
 girl: 18
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" 
+logging:
+  level:
+    org.springframework.cloud.bus: debug
