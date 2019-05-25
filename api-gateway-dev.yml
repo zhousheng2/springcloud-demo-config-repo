@@ -1,3 +1,16 @@
+spring:
+  rabbitmq:
+    host: 192.168.200.234
+    port: 5672
+    username: guest
+    password: guest
+  zipkin:
+    base-url: http://192.168.200.234:9411/
+    sender:
+      type: web
+  sleuth:
+    sampler:
+      probability: 1
 zuul:
   #全部服务忽略敏感头(全部服务都可以传递cookie)
   sensitive-headers: 
