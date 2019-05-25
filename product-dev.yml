@@ -34,7 +34,4 @@ feign:
         connectTimeout: 5000
         readTimeout: 5000
         loggerLevel: basic 
-logging:
-  level:
-    org.springframework.cloud.bus: debug
-    org.springframework.cloud.openfeign: debug
+
