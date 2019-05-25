@@ -14,4 +14,11 @@ spring:
     port: 6379
   jpa:
     show-sql: true
+  zipkin:
+    base-url: http://192.168.200.234:9411/
+    sender:
+      type: web
+  sleuth:
+    sampler:
+      probability: 1
 girl: 18
