@@ -1,3 +1,4 @@
+#feign超时配置
 feign:
   client:
     config:
