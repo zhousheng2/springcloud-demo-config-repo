@@ -30,4 +30,4 @@ management:
 logging:
   level:
     org.springframework.cloud.bus: debug
-    org.springframework.cloud.netflix.feign: debug
+    org.springframework.cloud.openfeign: debug
