@@ -21,7 +21,7 @@ zuul:
       serviceId: product
       sensitiveHeaders:  #显示敏感头信息（cookie，配置空即可）
     order:
-      path: /order/**
+      path: /order2/**
       serviceId: order
       sensitiveHeaders:  #显示敏感头信息（cookie，配置空即可）
     user:
