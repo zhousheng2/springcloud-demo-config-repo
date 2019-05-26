@@ -14,7 +14,7 @@ girl:
   age: 23
 spring:
   zipkin:
-    base-url: http://192.168.200.234:9411/
+    base-url: http://192.168.200.138:9411/
     sender:
       type: web
   sleuth:
