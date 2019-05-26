@@ -1,11 +1,11 @@
 spring:
   rabbitmq:
-    host: 192.168.200.234
+    host: 192.168.200.138
     port: 5672
     username: guest
     password: guest
   zipkin:
-    base-url: http://192.168.200.234:9411/
+    base-url: http://192.168.200.138:9411/
     sender:
       type: web
   sleuth:
