@@ -10,8 +10,8 @@ feign:
 env:
   test8
 girl:
-  name: w2277772w
-  age: 19
+  name: zhousheng
+  age: 23
 spring:
   zipkin:
     base-url: http://192.168.200.234:9411/
